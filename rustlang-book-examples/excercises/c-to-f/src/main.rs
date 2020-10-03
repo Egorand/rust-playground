@@ -2,6 +2,9 @@ use std::io;
 use std::process;
 
 fn main() {
+  println!("Celsius to Fahrenheit");
+  println!("=====================\n");
+
   let celsius = read_temperature_in_celsius();
   println!("Celsius: {}º", celsius);
 
